@@ -11,3 +11,125 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media(max-width:767px) {
+  .container {
+      height: fit-content
+  }
+}
+
+.weather {
+  width: 600px;
+}
+
+@media(max-width:767px) {
+  .weather {
+      width: 100%
+  }
+}
+@media(max-width:400px) {
+  .title {
+      width: 100%
+  
+  }
+}
+@media(max-width:400px) {
+  .sd {
+      font-size: 20px;
+  
+  }
+}
+@media (max-width: 420px){
+  .header{
+   font-size: x-small;
+  }    
+  }
+
+@media(max-width:400px) {
+  .tepm{
+      font-size: 10px !important;
+  
+  }
+}
+
+.card1 {
+  height: 450px;
+  padding: 20px;
+  margin: 1.5rem 4vw;
+  border-radius: 1rem;
+  border-color: black;
+  padding: 20px;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  text-align: center
+}
+
+@media(max-width:768px) {
+  .card {
+      margin: 1.4rem
+  }
+}
+
+.main1{
+  margin: auto;
+  text-align: center;
+  color: #3385ff;
+  font-weight: bold;
+  border: none;
+  padding: 4px;
+  border-bottom: 2px solid red;
+  font-size: large;
+  
+}
+.value{
+  font-weight: bolder;
+  font-size: 20px;
+  
+}
+
+.title {
+  justify-content: center;
+  color: red;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.title p {
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem
+}
+
+.temp {
+  font-size: 5.2rem;
+  margin-bottom: 1rem;
+  color:   #2e2eb8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+  color: #ff6600;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.a{
+  color: black;
+  font-size: 70px;
+}
+
+.col-4 {
+  padding: 0 0.5rem
+}
+
+.icon {
+  align-self: flex-end;
+  margin-right: -2.5rem;
+  margin-top: -2rem;
+  z-index: 999
+}
+
+.icon img {
+  width: 5rem
+}
